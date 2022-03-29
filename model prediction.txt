@@ -1,0 +1,6 @@
+Which Model will do better - Unscaled Data:
+I think the logistic regression model will do better. I think the unscaled data will throw off the random forest model to a large enough extent that it will impact accuracy. Since the logistic regression model is a linear combination of the underlying variables, the model already scales the variables when it generates model coefficients.
+
+
+Which Model will do better - Scaled Data:
+I think the Random Forest Classifier will do better because factors driving lack of debt repayment are likley a non-linear relationship (one individual factor can push someone to be high risk, even if other factors look okay). Logit regressions only capture linear combinations, so I think Random Forests will do better.
